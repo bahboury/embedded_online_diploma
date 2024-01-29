@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "windows-msvc-x64",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerArgs": [
+                ""
+            ],
+            "mergeConfigurations": true
+        }
+    ],
+    "version": 4
+}
