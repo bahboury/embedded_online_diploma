@@ -179,33 +179,33 @@
 // C Program to Make a Simple Calculator Using switch...case 
 
 
-#include<stdio.h>
-#include<stdlib.h>
+// #include<stdio.h>
+// #include<stdlib.h>
 
-int main()
-{
-    double num_1 , num_2 , result ;
-    char decision ;
+// int main()
+// {
+//     double num_1 , num_2 , result ;
+//     char decision ;
 
-    printf("Enter operator either {+ / - / * / div } : ");
-    scanf("%c",&decision);
+//     printf("Enter operator either { + / - / * / div } : ");
+//     scanf("%c",&decision);
 
-    printf("Enter two operands : ");
-    scanf("%lf%lf",&num_1,&num_2);
+//     printf("Enter two operands : ");
+//     scanf("%lf%lf",&num_1,&num_2);
     
-    switch (decision){
+//     switch (decision){
 
-    case '+':
-        result = num_1 + num_2 ; break;
-    case '-':
-        result = num_1 - num_2 ; break;
-    case '*':
-        result = num_1 * num_2 ; break;
-    case '%':
-        result = num_1 / num_2 ; break;
-    default:
-        printf("invalid choice"); return 0 ; }
+//     case '+':
+//         result = num_1 + num_2 ; break;
+//     case '-':
+//         result = num_1 - num_2 ; break;
+//     case '*':
+//         result = num_1 * num_2 ; break;
+//     case '%':
+//         result = num_1 / num_2 ; break;
+//     default:
+//         printf("invalid choice"); return 0 ; }
     
-    printf("%.2lf %c %.2lf = %.2lf",num_1,decision,num_2,result);
+//     printf("%.2lf %c %.2lf = %.2lf",num_1,decision,num_2,result);
 
-}
+// }
