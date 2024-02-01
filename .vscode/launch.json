@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "console": "externalTerminal",
+      "cwd": "f:/course embedded/github link/embedded_online_diploma",
+      "program": "f:/course embedded/github link/embedded_online_diploma/build/Debug/outDebug"
+    }
+  ]
+}
