@@ -241,21 +241,21 @@
 // ########## Example 8 ##########
 // c program to reverse string without Using Library function
 
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+// #include<stdio.h>
+// #include<stdlib.h>
+// #include<string.h>
 
-int main()
-{
-    char str[50] , rvrs[50] ;
-    int cnt , i ;
+// int main()
+// {
+//     char str[50] , rvrs[50] ;
+//     int cnt , i ;
     
-    printf("Enter a string : ");
-    fflush(stdin);fflush(stdout);
-    gets(str);
+//     printf("Enter a string : ");
+//     fflush(stdin);fflush(stdout);
+//     gets(str);
 
-    for (i = 0 , cnt = strlen(str) - 1 ; i != strlen(str) ; ++i , --cnt)
-        rvrs[i] = str[cnt] ;
+//     for (i = 0 , cnt = strlen(str) - 1 ; i != strlen(str) ; ++i , --cnt)
+//         rvrs[i] = str[cnt] ;
     
-    printf("Reverse string is : %s",rvrs);
-}
+//     printf("Reverse string is : %s",rvrs);
+// }
