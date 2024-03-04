@@ -2,6 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "PowerShell: Binary Module Pester Tests",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "Invoke-Pester",
+      "createTemporaryIntegratedConsole": true,
+      "attachDotnetDebugger": true
+    },
+    
+    {
+      "name": "C#: <project-name> Debug",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+    },
+    {
       "processId":"${command:pickProcess}",
       "name": "(Windows) Attach",
       "type": "cppvsdbg",
