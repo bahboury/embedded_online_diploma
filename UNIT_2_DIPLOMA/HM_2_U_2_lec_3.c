@@ -19,7 +19,6 @@
 //     scanf("%d",&num);
 
 //     num % 2 == 0 ? printf("%d is even.",num) : printf("%d is odd.",num) ; 
-
 // }
 
 
@@ -44,7 +43,7 @@
 //     case 'I': case 'o': case 'O': case 'u': case 'U':
 
 //         printf("%c is a vowel",_char);break;
-    
+
 //     default:
 //         printf("%c is a consonant",_char);
 //     }
@@ -72,7 +71,7 @@
 //             printf("the largest number = %.2lf",num_1);
 //         else
 //             printf("the largest number = %.2lf",num_3);
-    
+
 //     } else {
 //         if (num_2 > num_3)
 //             printf("the largest number = %.2lf",num_2);
@@ -80,7 +79,7 @@
 //             printf("the largest number = %.2lf",num_3);     
 
 //     }
-    
+
 // }
 
 
@@ -98,9 +97,9 @@
 //     printf("Enter a number : ");
 //     fflush(stdin);fflush(stdout);
 //     scanf("%d",&num);
-    
+
 //     if (num == 0){ printf("you entered zero") ; return 0 ; }
-    
+
 //     num > 0 ? printf("%d is positive.",num) : printf("%d is negative.",num) ; 
 
 // }
@@ -143,7 +142,7 @@
 
 //     for (int i = 0; i <= num; ++i)
 //         Sum +=i;
-    
+
 //     printf("Sum = %d",Sum);
 // }
 
@@ -168,10 +167,10 @@
 
 //     if (num == 0)
 //         Factorial = 1 ;
-    
+
 //     num < 0 ? 
 //     printf("Error!!! Factorial of negative num doesn't exist"): printf("Factorial = %d",Factorial) ; 
-    
+
 // }
 
 
@@ -192,7 +191,7 @@
 
 //     printf("Enter two operands : ");
 //     scanf("%lf%lf",&num_1,&num_2);
-    
+
 //     switch (decision){
 
 //     case '+':
@@ -205,7 +204,7 @@
 //         result = num_1 / num_2 ; break;
 //     default:
 //         printf("invalid choice"); return 0 ; }
-    
+
 //     printf("%.2lf %c %.2lf = %.2lf",num_1,decision,num_2,result);
 
 // }
